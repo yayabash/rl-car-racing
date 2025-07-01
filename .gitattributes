@@ -16,4 +16,10 @@ DQN filter=lfs diff=lfs merge=lfs -text
 videos filter=lfs diff=lfs merge=lfs -text
 DoubleDQN filter=lfs diff=lfs merge=lfs -text
 videos/DoubleDQN/*.mp4 filter=lfs diff=lfs merge=lfs -text
+training/saved_models/DQN.pt filter=lfs diff=lfs merge=lfs -text
+training/saved_models/DoubleDQN.pt filter=lfs diff=lfs merge=lfs -text
+videos/DQN/rl-video-episode-0.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/DQN/rl-video-episode-1.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/DoubleDQN/rl-video-episode-0.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/DoubleDQN/rl-video-episode-1.mp4 filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
