@@ -7,21 +7,29 @@ Project Overview
 The project trains DQN and Double DQN agents on the CarRacing-v3 environment, a 2D racing game with 96x96 RGB inputs preprocessed to 84x84x4. Key components include experience replay, target networks, and soft updates (tau=0.005 for Double DQN). The goal is to compare performance, with Double DQN showing improved stability over DQN.
 Files
 
-compare_models.py: Script to compare DQN and Double DQN models.
-plot_comparison.py: Generates comparison plots (e.g., training/comparison_plot.png).
-configs/dqn.yaml, configs/double_dqn.yaml: Hyperparameter configurations.
-double_dqn_model/, dqn_model/: Model implementations and training scripts.
-training/: Contains logs, saved models (DQN.pt, DoubleDQN.pt), and plots.
-videos/DQN/, videos/DoubleDQN/: Video recordings of agent performance.
-rl_project_report.pdf: Detailed project report (see below).
+**compare_models.py**: Script to compare DQN and Double DQN models.
+
+**plot_comparison.py**: Generates comparison plots (e.g., training/comparison_plot.png).
+
+**configs/dqn.yaml**, **configs/double_dqn.yaml**: Hyperparameter configurations.
+
+**double_dqn_model/**, **dqn_model/**: Model implementations and training scripts.
+
+**training/**: Contains logs, saved models (DQN.pt, DoubleDQN.pt), and plots.
+
+**videos/DQN/**, **videos/DoubleDQN/**: Video recordings of agent performance.
+
+**rl_project_report.pdf**: Detailed project report (see below).
 
 Setup
 
-Clone the repository:git clone https://github.com/yayabash/rl-car-racing.git
+Clone the repository:
 
+```bash git clone https://github.com/yayabash/rl-car-racing.git  ```
 
+```bash
 cd rl-car-racing
-
+```
 
 Install dependencies:
 
