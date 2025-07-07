@@ -1,8 +1,8 @@
-RL Car Racing with DQN and Double DQN
+# RL Car Racing with DQN and Double DQN
 
 This repository contains a Reinforcement Learning (RL) project implementing Deep Q-Networks (DQN) and Double DQN to navigate the CarRacing-v3 environment using PyTorch and Gymnasium. The project explores training agents to drive a car on random tracks, addressing challenges like runtime errors, training instability, and environment complexity.
 
-Project Overview
+## Project Overview
 
 The project trains DQN and Double DQN agents on the CarRacing-v3 environment, a 2D racing game with 96x96 RGB inputs preprocessed to 84x84x4. Key components include experience replay, target networks, and soft updates (tau=0.005 for Double DQN). The goal is to compare performance, with Double DQN showing improved stability over DQN.
 Files
