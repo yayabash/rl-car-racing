@@ -21,11 +21,11 @@ Clone the repository:git clone https://github.com/yayabash/rl-car-racing.git
 cd rl-car-racing
 
 
-Install dependencies:
+Install dependencies.:
 pip install torch gymnasium numpy matplotlib
 
 
-Run training scripts:
+Run training scripts.:
 python dqn_model/training_dqn.py
 python double_dqn_model/training_double_dqn.py
 
