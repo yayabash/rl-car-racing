@@ -39,7 +39,9 @@ python double_dqn_model/training_double_dqn.py
 ### Results
 
 DQN: Mean reward 738.11 ± 106.88 over 1400+ episodes (356,576 steps).
+
 Double DQN: Mean reward 619.5 ± 115.74 over 1000+ episodes (275,648 steps).
+
 Double DQN exhibits better stability due to soft updates, though both models benefit from longer training.
 
 ## Video Visualization
@@ -67,6 +69,8 @@ https://github.com/yayabash/rl-car-racing/blob/main/rl_project_report.pdf
 ## Future Work
 
 Hyperparameter tuning (e.g., epsilon decay, tau).
+
 Extend training to 100K+ timesteps.
+
 Explore Dueling DQN or PPO for enhanced performance.
 
