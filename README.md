@@ -40,6 +40,8 @@ Video Visualization
 Watch the agents in action:
 
 DQN Episode 0
+https://github.com/yayabash/rl-car-racing/blob/main/videos/DQN/rl-video-episode-0.mp4
+
 DQN Episode 1
 Double DQN Episode 0
 Double DQN Episode 1
