@@ -39,13 +39,15 @@ Double DQN exhibits better stability due to soft updates, though both models ben
 Video Visualization
 Watch the agents in action:
 
-DQN Episode 0
+## Demo Videos
 
-<video src="https://github.com/yayabash/rl-car-racing/raw/main/videos/DQN/rl-video-episode-0.mp4" controls width="500"></video>
+### DQN
+![DQN Episode 0](./videos/DQN/gifs/rl-video-episode-0.gif)
+![DQN Episode 1](./videos/DQN/gifs/rl-video-episode-1.gif)
 
-DQN Episode 1
-Double DQN Episode 0
-Double DQN Episode 1
+### DoubleDQN
+![DoubleDQN Episode 0](./videos/DoubleDQN/gifs/rl-video-DoubleDQN-episode-0.gif)
+![DoubleDQN Episode 1](./videos/DoubleDQN/gifs/rl-video-DoubleDQN-episode-1.gif)
 
 Project Report
 The full project report is available as a PDF:rl_project_report.pdf
