@@ -55,7 +55,8 @@ Second Trial
 ![DoubleDQN Episode 1](https://github.com/yayabash/rl-car-racing/blob/main/rl-video-DoubleDQN-episode-1.gif)
 
 ## Project Report
-The full project report is available as a PDF:rl_project_report.pdf
+The full project report is available as a PDF:
+https://github.com/yayabash/rl-car-racing/blob/main/rl_project_report.pdf
 
 ## Future Work
 
