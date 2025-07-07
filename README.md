@@ -35,16 +35,17 @@ cd rl-car-racing
 
 Install dependencies:
 
+```bash
 pip install torch gymnasium numpy matplotlib
-
+```
 
 Run training scripts:
-
+```bash
 python dqn_model/training_dqn.py
-
+```
+```bash
 python double_dqn_model/training_double_dqn.py
-
-
+```
 
 ### Results
 
