@@ -25,7 +25,9 @@ Setup
 
 Clone the repository:
 
-```bash git clone https://github.com/yayabash/rl-car-racing.git  ```
+```bash 
+git clone https://github.com/yayabash/rl-car-racing.git
+```
 
 ```bash
 cd rl-car-racing
