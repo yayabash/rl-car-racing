@@ -43,11 +43,11 @@ Watch the agents in action:
 
 ### DQN
 ![DQN Episode 0](https://github.com/yayabash/rl-car-racing/blob/main/rl-video-DQN-episode-0.gif)
-![DQN Episode 1](./videos/DQN/gifs/rl-video-episode-1.gif)
+![DQN Episode 1](https://github.com/yayabash/rl-car-racing/blob/main/rl-video-DQN-episode-1.gif)
 
 ### DoubleDQN
-![DoubleDQN Episode 0](./videos/DoubleDQN/gifs/rl-video-DoubleDQN-episode-0.gif)
-![DoubleDQN Episode 1](./videos/DoubleDQN/gifs/rl-video-DoubleDQN-episode-1.gif)
+![DoubleDQN Episode 0](https://github.com/yayabash/rl-car-racing/blob/main/rl-video-DoubleDQN-episode-0.gif)
+![DoubleDQN Episode 1](https://github.com/yayabash/rl-car-racing/blob/main/rl-video-DoubleDQN-episode-1.gif)
 
 Project Report
 The full project report is available as a PDF:rl_project_report.pdf
