@@ -42,7 +42,7 @@ Watch the agents in action:
 ## Demo Videos
 
 ### DQN
-![DQN Episode 0](./videos/DQN/gifs/rl-video-episode-0.gif)
+![DQN Episode 0](https://github.com/yayabash/rl-car-racing/blob/main/rl-video-DQN-episode-0.gif)
 ![DQN Episode 1](./videos/DQN/gifs/rl-video-episode-1.gif)
 
 ### DoubleDQN
