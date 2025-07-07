@@ -18,6 +18,8 @@ rl_project_report.pdf: Detailed project report (see below).
 Setup
 
 Clone the repository:git clone https://github.com/yayabash/rl-car-racing.git
+
+
 cd rl-car-racing
 
 
