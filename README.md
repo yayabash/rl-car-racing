@@ -25,7 +25,8 @@ Install dependencies:
 pip install torch gymnasium numpy matplotlib
 
 
-Run training scripts:python dqn_model/training_dqn.py
+Run training scripts:
+python dqn_model/training_dqn.py
 python double_dqn_model/training_double_dqn.py
 
 
