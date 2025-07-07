@@ -64,7 +64,7 @@ print(f"Target update every: {driver.update_target_every} steps")
 
 # Training parameters
 batch_n = 32
-play_n_episodes = 1000  # Keep low for quick testing, adjust as needed
+play_n_episodes = 2000  # Keep low for quick testing, adjust as needed
 episode_epsilon_list = []
 episode_reward_list = []
 episode_length_list = []

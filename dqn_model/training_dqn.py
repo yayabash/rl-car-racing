@@ -47,7 +47,7 @@ driver = DQN.Agent(
 
 # Training parameters
 batch_n = 32
-play_n_episodes = 1000  # Quick test
+play_n_episodes = 2000  # Quick test
 episode_epsilon_list = []
 episode_reward_list = []
 episode_length_list = []
