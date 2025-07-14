@@ -5,33 +5,19 @@ This repository contains a Reinforcement Learning (RL) project implementing Deep
 ## Project Overview
 
 The project trains DQN and Double DQN agents on the CarRacing-v3 environment, a 2D racing game with 96x96 RGB inputs preprocessed to 84x84x4. Key components include experience replay, target networks, and soft updates (tau=0.005 for Double DQN). The goal is to compare performance, with Double DQN showing improved stability over DQN.
-Files
 
-**compare_models.py**: Script to compare DQN and Double DQN models.
+## Prerequisites
+- Python 3.8+
+- PyTorch (tested with version 2.0+)
+- Gymnasium (tested with version 0.29.0+)
+- NumPy
+- Matplotlib
 
-**plot_comparison.py**: Generates comparison plots (e.g., training/comparison_plot.png).
-
-**configs/dqn.yaml**, **configs/double_dqn.yaml**: Hyperparameter configurations.
-
-**double_dqn_model/**, **dqn_model/**: Model implementations and training scripts.
-
-**training/**: Contains logs, saved models (DQN.pt, DoubleDQN.pt), and plots.
-
-**videos/DQN/**, **videos/DoubleDQN/**: Video recordings of agent performance.
-
-**rl_project_report.pdf**: Detailed project report (see below).
-
-Setup
-
-Clone the repository:
-
-```bash 
-git clone https://github.com/yayabash/rl-car-racing.git
-```
-
-```bash
-cd rl-car-racing
-```
+## Step-by-Step Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yayabash/rl-car-racing.git
+   cd rl-car-racing
 
 Install dependencies:
 
@@ -39,14 +25,27 @@ Install dependencies:
 pip install torch gymnasium numpy matplotlib
 ```
 
-Run training scripts:
-```bash
-python dqn_model/training_dqn.py
-```
-```bash
-python double_dqn_model/training_double_dqn.py
-```
+## Project Structure
+- **compare_models.py**: Script to compare DQN and Double DQN models.
+- **plot_comparison.py**: Generates comparison plots (e.g., training/comparison_plot.png).
+- **configs/**: Contains configuration files (e.g., dqn.yaml, double_dqn.yaml) for hyperparameters.
+- **dqn_model/**: Directory for DQN model implementation and training scripts.
+- **double_dqn_model/**: Directory for Double DQN model implementation and training scripts.
+- **training/**: Stores logs, saved models (DQN.pt, DoubleDQN.pt), and plots.
+- **videos/**: Contains video recordings of agent performance.
+- **rl_project_report.pdf**: Detailed project report.
 
+## Running the Project
+- Train DQN:
+  ```bash
+  python dqn_model/training_dqn.py
+  ```
+
+- Train Double_DQN:
+  ```bash
+  python double_dqn_model/training_double_dqn.py
+  ```
+  
 ### Results
 
 DQN: Mean reward 738.11 ± 106.88 over 1400+ episodes (356,576 steps).
